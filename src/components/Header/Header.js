@@ -35,7 +35,7 @@ const Header = (props) => {
         smallNav == '-500px' ? setSmallNav('0') : setSmallNav('-500px')
     }
     const [sale, setSale] = useState([]);
-    const sales = sale.map((item) => {
+    const sales = sale?.map((item) => {
         return (
             <div className="sale-pic">{item.img}</div>
         )
