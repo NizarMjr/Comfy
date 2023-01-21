@@ -29,17 +29,11 @@ const Header = (props) => {
         else {
             setBag('');
         }
-        console.log('toggled');
     }
     const toggleSmallNav = () => {
         smallNav == '-500px' ? setSmallNav('0') : setSmallNav('-500px')
     }
-    const [sale, setSale] = useState([]);
-    const sales = sale?.map((item) => {
-        return (
-            <div className="sale-pic">{item.img}</div>
-        )
-    })
+
     const removeShop = (id) => {
         const updateShop = shops.filter((item, index) => {
             return `${item.id + index}` != id;
