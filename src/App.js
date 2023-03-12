@@ -1,11 +1,10 @@
+import React from 'react';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Details from './components/Details/Details';
-import Header from './components/Header/Header';
-import Feature from './components/Home/Features';
 import Home from './components/Home/Home';
 import Product from './components/Products/Products';
 

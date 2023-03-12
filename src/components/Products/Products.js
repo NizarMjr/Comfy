@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import products from './products.css'
 import { AiOutlineSearch, AiOutlineShoppingCart } from 'react-icons/ai'

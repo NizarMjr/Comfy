@@ -1,7 +1,6 @@
 import React from "react";
-import product from './home.css'
+import home from './home.css'
 import Header from "../Header/Header";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Feature from "./Features";
 const Home = (props) => {

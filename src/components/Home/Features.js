@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import feature from './features.css'
 import PIC1 from '../../images/feature1.jpg'
 import PIC2 from '../../images/feature2.jpg'
 import PIC3 from '../../images/feature3.jpg'
 import { AiOutlineSearch, AiOutlineShoppingCart } from 'react-icons/ai'
 import { Link } from "react-router-dom";
-const Feature = (props) => {
+const Features = (props) => {
 
     const { data, setToggle } = props
     const feature = data.map((item, index) => {
@@ -45,4 +45,4 @@ const Feature = (props) => {
         </section>
     )
 }
-export default Feature;
+export default Features;
